@@ -1,3 +1,7 @@
+ body {
+	background-color: #42454a;
+}
+
 section {
 	width: 800px;
 	margin: 100px auto;
@@ -5,12 +9,19 @@ section {
 section h1,
 section p {
 	text-align: center;
-	color: #454545;
+	color: #ffffff;
 }
 section h1 {
 	font: 32px 'Open Sans';
 	font-weight: bold;
 }
 section p {
-	font: 16px 'Open Sans';
+	font: 18px 'Open Sans';
+	font-style: italic;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
